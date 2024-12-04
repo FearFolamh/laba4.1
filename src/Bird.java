@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class Bird extends Animal{
+    public Bird(String Name, Integer Age) {
+        super(Name, Age);
+    }
+    @Override
+    public void makeSound()
+    {
+        System.out.println("Чик-чирик");
+    }
 
-public class Bird {
 }
